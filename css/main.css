@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Big Caslon;
+}
+nav{
+    background:grey;
+    height:80px;
+    width:100%
+}
+label.logo{
+    color:aqua;
+    font-size: 1.5rem;
+    line-height: 80px;
+    padding:0 1rem;
+    font-weight:bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 0.2rem;
+}
+nav ul li a{
+    color: aqua;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+ a:hover{
+    background: rgb(174, 172, 172);
+    transition: .5s;
+}
+
+h2{
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+    text-decoration: underline;
+    text-decoration-color:aqua;
+    font-weight:bold;
+}
+p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+
+img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.image-container img {
+    display: block;
+	max-width: 100%;
+	height: auto;
+  }
+.image-container{
+    position: relative;
+    text-align: center;
+  }
+.image-container .mask{
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom: 0;
+    background-color: lightgray;
+    opacity: 0.4;
+    z-index: 2;
+    
+  }
+.centered {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aqua;
+    font-size: 2rem;
+    font-weight:bold;
+    z-index: 3;
+  }
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
