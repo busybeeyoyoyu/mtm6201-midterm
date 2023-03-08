@@ -1,0 +1,88 @@
+/* index css */
+.banner,
+.image-item {
+  font-size: 0;
+  position: relative;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 2;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.banner h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 54px;
+  color: #71efde;
+  font-weight: normal;
+  margin: 0;
+  transform: translate(-50%);
+  z-index: 3;
+}
+
+.customize {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.customize h2 {
+  display: inline-block;
+  font-weight: normal;
+  margin: 0;
+}
+
+.customize h2:after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #71efde;
+}
+
+.customize p {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.image-list .image-item {
+  height: 160px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.image-list .image-item img {
+  display: block;
+  max-height: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.image-list .image-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 24px;
+  color: #71efde;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin: 0;
+  margin-top: -15px;
+  z-index: 3;
+}
