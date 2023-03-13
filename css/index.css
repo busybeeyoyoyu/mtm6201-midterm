@@ -4,6 +4,48 @@
   font-size: 0;
   position: relative;
 }
+/* @media (min-width: 960px) {
+  .banner {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .right{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+} */
+
+/* @keyframes changeColor{
+	from{
+		background-color: #71efde;
+	}
+	to{
+		background-color: greenyellow;
+	}
+}
+.banner .left:hover{
+	animation-name: changeColor;
+	animation-duration: 2s;
+	animation-delay: .5s;
+	animation-fill-mode: forwards;
+} */
+
+
+
+.banner {
+  transform: translateX(-100%);
+  animation: slide-in 1s ease-in forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
 .mask {
   position: absolute;
