@@ -31,6 +31,18 @@
 	animation-fill-mode: forwards;
 } */
 
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+.left, .right {
+  flex: 0 0 auto;
+}
+@media (min-width: 960px) {
+  .banner {
+    flex-direction: column;
+  }
+}
 
 
 .banner {
